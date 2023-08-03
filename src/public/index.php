@@ -92,3 +92,21 @@ echo "potential child's hobbies (fusion)" . '<pre>';
 print_r($child_hobbies_fusion);
 echo '</pre>';
 ?>
+<br>
+<br>
+<?php
+$web_develpment = array(
+    'frontend' => array(),
+    'backend' => array()
+);
+
+$web_develpment['frontend'][] = 'xhtml';
+$web_develpment['backend'][] = 'Ruby on Rails';
+$web_develpment['frontend'][] = 'CSS';
+$web_develpment['frontend'][] = 'Flash';
+$web_develpment['frontend'][] = 'Javascript';
+
+echo '<pre>';
+print_r($web_develpment);
+echo '</pre>';
+?>
